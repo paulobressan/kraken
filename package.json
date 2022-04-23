@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node api",
     "serve": "vue-cli-service serve",
+    "prebuild": "cd api && npm install",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
